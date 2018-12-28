@@ -16,6 +16,28 @@ a:hover{
     color: black;
     text-decoration: none;
 }
+#loginModal .modal-header{
+    background-color:#512DA8;
+    color: floralwhite;
+}
+#loginModal .modal-body{
+    background-color:#d1c4e9;
+}
+
+#loginModal .modal-header button {
+    color: floralwhite
+}
+
+#formModal .modal-header {
+    background-color: #512da8;
+    color: white;
+  }
+  #formModal .modal-body {
+    background-color: #d1c4e9;
+  }
+  #formModal .modal-header button {
+    color: white;
+  }
 
 .carousel {
     background:#512DA8;
