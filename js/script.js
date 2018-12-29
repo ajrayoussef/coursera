@@ -1,8 +1,9 @@
  $(document).ready(function(){
+     console.log('loaded');
             $("#mycarousel").carousel({interval:2000});
 
             $("#carouselButton").click(function(){
-
+                        console.log('c button licked')
                     if($("#carouselButton").children("span").hasClass("fa-pause")){
 
                         $("#mycarousel").carousel('pause');
